@@ -137,8 +137,6 @@ public class MainActivity extends AppCompatActivity {
 
                         JSONObject infos = info.getJSONObject(k);
 
-                        //country = infos.getString("Inst_Location");
-
                         countrylist.add(infos.getString("Inst_Location"));
 
                     }
